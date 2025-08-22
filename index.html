@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/utility.css">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <img src="svgs/close.svg" alt="">
+            </div>
+            <div class="home bg-grey m-1 rounded p-1">
+                <div class="logo"><img class="invert" src="svgs/logo.svg" alt="logo"></div>
+                <ul>
+                    <li><img class="invert" src="svgs/home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="svgs/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey m-1 rounded p-1">
+                <div class="heading">
+                    <img class="invert" src="svgs/playlist.svg" alt="">
+                    <h3>Your library</h3>
+                </div>
+                <div class="songlist">
+                    <ul>
+                        
+                    </ul>
+                </div>
+
+                <div class="footer">
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/">
+                            <span>Legal</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                            <span>Safety &amp; Privacy Center</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                            <span>Privacy Policy</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                            <span>Cookies</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                            <span>About Ads</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/">
+                            <span>Accessibility</span>
+                        </a>
+                    </div>
+                    <a draggable="false" href="https://www.spotify.com/legal/cookies-policy/" target="_blank"
+                        rel="noopener">
+                        <span>Cookies</span>
+                    </a>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="nav">
+
+                    <div class="hamburgercontainer">
+
+                        <img class="hamburger" src="svgs/hamburger.svg" alt="">
+
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+
+            <div class="spotifyPlaylist">
+                <h1>Spotify Playlist</h1>
+                <div class="cardContainer">
+                    <!-- <div data-folder="Bollywood" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24"
+                                fill="none" lang="en">
+                                <circle cx="12" cy="12" r="12" fill="#1ed760" />
+                                <path
+                                    d="M16.7519 11.1679L10.5547 7.03647C9.89015 6.59343 9 7.06982 9 7.86852V16.1315C9 16.9302 9.89015 17.4066 10.5547 16.9635L16.7519 12.8321C17.3457 12.4362 17.3457 11.5638 16.7519 11.1679Z"
+                                    fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="">
+                        <h2>Bollywood</h2>
+                        <p>Feel the melody of Arijit Singh, Ankit Tiwari, Jeet Ganguli</p>
+                    </div>
+
+                    <div data-folder="Ashiqui2" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24"
+                                fill="none" lang="en">
+                                <circle cx="12" cy="12" r="12" fill="#1ed760" />
+                                <path
+                                    d="M16.7519 11.1679L10.5547 7.03647C9.89015 6.59343 9 7.06982 9 7.86852V16.1315C9 16.9302 9.89015 17.4066 10.5547 16.9635L16.7519 12.8321C17.3457 12.4362 17.3457 11.5638 16.7519 11.1679Z"
+                                    fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="">
+                        <h2>Ashiqui 2</h2>
+                        <p>Feel the melody of Arijit Singh, Ankit Tiwari, Jeet Ganguli</p>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24"
+                                fill="none" lang="en">
+                                <circle cx="12" cy="12" r="12" fill="#1ed760" />
+                                <path
+                                    d="M16.7519 11.1679L10.5547 7.03647C9.89015 6.59343 9 7.06982 9 7.86852V16.1315C9 16.9302 9.89015 17.4066 10.5547 16.9635L16.7519 12.8321C17.3457 12.4362 17.3457 11.5638 16.7519 11.1679Z"
+                                    fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="">
+                        <h2>Ashiqui 2</h2>
+                        <p>Feel the melody of Arijit Singh, Ankit Tiwari, Jeet Ganguli</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24"
+                                fill="none" lang="en">
+                                <circle cx="12" cy="12" r="12" fill="#1ed760" />
+                                <path
+                                    d="M16.7519 11.1679L10.5547 7.03647C9.89015 6.59343 9 7.06982 9 7.86852V16.1315C9 16.9302 9.89015 17.4066 10.5547 16.9635L16.7519 12.8321C17.3457 12.4362 17.3457 11.5638 16.7519 11.1679Z"
+                                    fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="">
+                        <h2>Ashiqui 2</h2>
+                        <p>Feel the melody of Arijit Singh, Ankit Tiwari, Jeet Ganguli</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24"
+                                fill="none" lang="en">
+                                <circle cx="12" cy="12" r="12" fill="#1ed760" />
+                                <path
+                                    d="M16.7519 11.1679L10.5547 7.03647C9.89015 6.59343 9 7.06982 9 7.86852V16.1315C9 16.9302 9.89015 17.4066 10.5547 16.9635L16.7519 12.8321C17.3457 12.4362 17.3457 11.5638 16.7519 11.1679Z"
+                                    fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="">
+                        <h2>Ashiqui 2</h2>
+                        <p>Feel the melody of Arijit Singh, Ankit Tiwari, Jeet Ganguli</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24"
+                                fill="none" lang="en">
+                                <circle cx="12" cy="12" r="12" fill="#1ed760" />
+                                <path
+                                    d="M16.7519 11.1679L10.5547 7.03647C9.89015 6.59343 9 7.06982 9 7.86852V16.1315C9 16.9302 9.89015 17.4066 10.5547 16.9635L16.7519 12.8321C17.3457 12.4362 17.3457 11.5638 16.7519 11.1679Z"
+                                    fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="">
+                        <h2>Ashiqui 2</h2>
+                        <p>Feel the melody of Arijit Singh, Ankit Tiwari, Jeet Ganguli</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24"
+                                fill="none" lang="en">
+                                <circle cx="12" cy="12" r="12" fill="#1ed760" />
+                                <path
+                                    d="M16.7519 11.1679L10.5547 7.03647C9.89015 6.59343 9 7.06982 9 7.86852V16.1315C9 16.9302 9.89015 17.4066 10.5547 16.9635L16.7519 12.8321C17.3457 12.4362 17.3457 11.5638 16.7519 11.1679Z"
+                                    fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="">
+                        <h2>Ashiqui 2</h2>
+                        <p>Feel the melody of Arijit Singh, Ankit Tiwari, Jeet Ganguli</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24"
+                                fill="none" lang="en">
+                                <circle cx="12" cy="12" r="12" fill="#1ed760" />
+                                <path
+                                    d="M16.7519 11.1679L10.5547 7.03647C9.89015 6.59343 9 7.06982 9 7.86852V16.1315C9 16.9302 9.89015 17.4066 10.5547 16.9635L16.7519 12.8321C17.3457 12.4362 17.3457 11.5638 16.7519 11.1679Z"
+                                    fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="">
+                        <h2>Ashiqui 2</h2>
+                        <p>Feel the melody of Arijit Singh, Ankit Tiwari, Jeet Ganguli</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24"
+                                fill="none" lang="en">
+                                <circle cx="12" cy="12" r="12" fill="#1ed760" />
+                                <path
+                                    d="M16.7519 11.1679L10.5547 7.03647C9.89015 6.59343 9 7.06982 9 7.86852V16.1315C9 16.9302 9.89015 17.4066 10.5547 16.9635L16.7519 12.8321C17.3457 12.4362 17.3457 11.5638 16.7519 11.1679Z"
+                                    fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="">
+                        <h2>Ashiqui 2</h2>
+                        <p>Feel the melody of Arijit Singh, Ankit Tiwari, Jeet Ganguli</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24"
+                                fill="none" lang="en">
+                                <circle cx="12" cy="12" r="12" fill="#1ed760" />
+                                <path
+                                    d="M16.7519 11.1679L10.5547 7.03647C9.89015 6.59343 9 7.06982 9 7.86852V16.1315C9 16.9302 9.89015 17.4066 10.5547 16.9635L16.7519 12.8321C17.3457 12.4362 17.3457 11.5638 16.7519 11.1679Z"
+                                    fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="">
+                        <h2>Ashiqui 2</h2>
+                        <p>Feel the melody of Arijit Singh, Ankit Tiwari, Jeet Ganguli</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24"
+                                fill="none" lang="en">
+                                <circle cx="12" cy="12" r="12" fill="#1ed760" />
+                                <path
+                                    d="M16.7519 11.1679L10.5547 7.03647C9.89015 6.59343 9 7.06982 9 7.86852V16.1315C9 16.9302 9.89015 17.4066 10.5547 16.9635L16.7519 12.8321C17.3457 12.4362 17.3457 11.5638 16.7519 11.1679Z"
+                                    fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="">
+                        <h2>Ashiqui 2</h2>
+                        <p>Feel the melody of Arijit Singh, Ankit Tiwari, Jeet Ganguli</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24"
+                                fill="none" lang="en">
+                                <circle cx="12" cy="12" r="12" fill="#1ed760" />
+                                <path
+                                    d="M16.7519 11.1679L10.5547 7.03647C9.89015 6.59343 9 7.06982 9 7.86852V16.1315C9 16.9302 9.89015 17.4066 10.5547 16.9635L16.7519 12.8321C17.3457 12.4362 17.3457 11.5638 16.7519 11.1679Z"
+                                    fill="#000000" />
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="">
+                        <h2>Ashiqui 2</h2>
+                        <p>Feel the melody of Arijit Singh, Ankit Tiwari, Jeet Ganguli</p>
+                    </div> -->
+
+                </div>
+
+
+
+
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+
+                    <div class="abovebar">
+
+                        <div class="songinfo">
+
+                        </div>
+                        <div class="songbuttons">
+                            <img id="previous" class="invert" src="svgs/previous.svg" alt="">
+                            <img id="play" src="svgs/playicon.svg" alt="">
+                            <img id="next" class="invert" src="svgs/next.svg" alt="">
+                        </div>
+
+                        <div class="timevol">
+                            <div class="songtime">
+
+                            </div>
+
+                            <div class="volume">
+                                <img width="25px" src="svgs/volume.svg" alt="">
+                                <div class="range">
+                                    <input type="range" name="volume">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
