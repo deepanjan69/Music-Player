@@ -1,0 +1,25 @@
+{
+  "name": "spotify-music-player",
+  "version": "1.0.0",
+  "description": "A simple and interactive music player website built with HTML, CSS, and JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 3000",
+    "build": "mkdir -p dist && cp -r * dist/ && rm -rf dist/node_modules dist/package*.json",
+    "start": "python3 -m http.server 3000"
+  },
+  "keywords": [
+    "music",
+    "player",
+    "html",
+    "css",
+    "javascript",
+    "spotify"
+  ],
+  "author": "Deepanjan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deepanjan69/Music-Player.git"
+  }
+}
