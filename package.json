@@ -4,9 +4,9 @@
   "description": "A simple and interactive music player website built with HTML, CSS, and JavaScript",
   "main": "index.html",
   "scripts": {
-    "dev": "python3 -m http.server 3000",
+    "dev": "npx serve -s . -l 3000",
     "build": "mkdir -p dist && cp -r * dist/ && rm -rf dist/node_modules dist/package*.json",
-    "start": "python3 -m http.server 3000"
+    "start": "npx serve -s . -l 3000"
   },
   "keywords": [
     "music",
